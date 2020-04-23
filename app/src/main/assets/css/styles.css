@@ -1,0 +1,89 @@
+@font-face { 
+  font-family: 'Roboto Bold';
+  src: url('file:../fonts/roboto_bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'Roboto Light';
+  src: url('file:../fonts/roboto_light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'Roboto Medium';
+  src: url('file:../fonts/roboto_medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'Roboto Regular';
+  src: url('file:../fonts/roboto_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: #FAFAFA;
+  background-color: #263238;
+  font-family: 'Roboto Regular', sans;
+}
+
+#container {
+	overflow: auto;
+	width: 1450px;
+}
+
+/* Different kinds of logs*/
+.verbose {
+	color: #ECEFF1;
+	font-family: 'Roboto Light', sans;
+}
+
+.debug {
+	color: #42A5F5;
+	font-family: 'Roboto Regular', sans;
+}
+
+.info {
+	color: #64DD17;
+	font-family: 'Roboto Regular', sans;
+}
+
+.warn {
+	color: #FF5722;
+	font-family: 'Roboto Medium', sans;
+}
+
+.error {
+	color: #F44336;
+	font-family: 'Roboto Bold', sans;
+}
+
+/* Different lines */
+.white_line {
+	border: 1px solid White;
+}
+
+.verbose_line {
+	border: 1px dashed DarkGray;
+}
+
+.debug_line {
+	border: 1px dashed LightBlue;
+}
+
+.info_line {
+	border: 1px dashed Green;
+}
+
+.warn_line {
+	border: 1px dashed Orange;
+}
+
+.error_line {
+	border: 1px dashed Red;
+}

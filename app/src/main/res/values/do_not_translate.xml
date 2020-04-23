@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Don't translate this file -->  
+<resources>
+	<string name="action_app_log">app_log_cat</string>
+</resources>
