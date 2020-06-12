@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import com.gameofcoding.xlogcat.utils.AppConstants;
+import android.widget.Toast;
 
 public class LogReceiver extends BroadcastReceiver {
 	String TAG = "LogReceiver";
